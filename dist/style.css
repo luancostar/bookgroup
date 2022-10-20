@@ -58,13 +58,18 @@ body {
 .header {
   height: 70px;
   width: 100%;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background-image: url(/assets/header-bg.jpg);
+  background: ;
   padding: 0 30px;
   font-size: 14px;
   font-weight: 500;
   color: var(--body-color-light);
   justify-content: space-between;
   flex-shrink: 0;
+}
+header img{
+  opacity: 30%;
 }
 
 .search-bar {
